@@ -1,7 +1,21 @@
 # Smells code
 
 Problème n°1:
-Le test attendait un nom différent de celui qui étati affecté à notre shop.
+  Le test attendait un nom différent de celui qui était affecté à notre shop.
+
+Résolution n°1:
+  Modification de fixme par foo dans le rendu test.
+
+-----------------------------------------------------------------------
+
+Problème n°2:
+  Dupplication de condition "this.items[i]".
+
+Résolution n°2:
+  Création d'une variable a appeler.
+
+-----------------------------------------------------------------------
+
 
 
 # Gilded Rose
