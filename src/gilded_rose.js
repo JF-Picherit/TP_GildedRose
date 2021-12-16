@@ -23,46 +23,43 @@ class Shop {
     const onze = 11;
     const cinquante = 50;
 
+    this.items.map((item) => {
 
-    for (let i = 0; i < this.items.length; i++) {
-      const myItem = this.items[i];
-
-      if (!nameItems.includes(myItem.name)) {
-        if (myItem.quality > zero) {
-          myItem.quality = myItem.quality - un;
-        }
+      if ((!nameItems.includes(item.name)) && (item.quality > zero)) {
+        item.quality = item.quality - un;
       } else {
-        if (myItem.quality < cinquante) {
-          myItem.quality = myItem.quality + un;
-          if ((myItem.name == name2) && (myItem.sellIn < onze) && (myItem.quality < cinquante)) {
-                myItem.quality = myItem.quality + un;
-            }
-            if ((myItem.sellIn < six) && (myItem.quality < cinquante)) {
-                myItem.quality = myItem.quality + un;
-            }
+        if (item.quality < cinquante) {
+          if ((item.name == name2) && (item.sellIn < onze) && (item.quality < cinquante)) {
+            item.quality += un;
+          }
+          if ((item.sellIn < six) && (item.quality < cinquante)) {
+            item.quality += un;
+          }
+          item.quality += un;
         }
       }
 
-      if (myItem.name != name3) {
-        myItem.sellIn = myItem.sellIn - un;
+      if (item.name != name3) {
+        item.sellIn = item.sellIn - un;
       }
 
-      if (myItem.sellIn < zero) {
-        if (myItem.name != name1) {
-          if (myItem.name != name2) {
-            if ((myItem.quality > zero) && (myItem.name != name3)) {
-                myItem.quality = myItem.quality - un;
+      if (item.sellIn < zero) {
+        if (item.name != name1) {
+          if (item.name != name2) {
+            if ((item.quality > zero) && (item.name != name3)) {
+                item.quality -= un;
             }
           } else {
-            myItem.quality = myItem.quality - myItem.quality;
+            item.quality = zero;
           }
         } else {
-          if (myItem.quality < cinquante) {
-            myItem.quality = myItem.quality + un;
+          if (item.quality < cinquante) {
+            item.quality += un;
           }
         }
       }
-    }
+      return item;
+    });
 
     return this.items;
   }

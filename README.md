@@ -11,7 +11,7 @@ Résolution n°1:
 Problème n°2:
   Dupplication de condition "this.items[i]".
 
-Résolution n°2:
+Résolution n°2 (commit 1):
   Création d'une variable a appeler.
 
 -----------------------------------------------------------------------
@@ -19,7 +19,7 @@ Résolution n°2:
 Problème n°3:
   Dupplication des noms des items.
 
-Résolution n°3:
+Résolution n°3 (commit 2):
   Création d'une varibale pour chaque nom + création d'un tableau pour l'appel groupé des noms.
 
 -----------------------------------------------------------------------
@@ -28,8 +28,13 @@ Problème n°4:
   Trop de conditions if imbriquée.
 
 Résolution n°4:
+  (commit 3)
   - Regroupement de tous les nombres dans de nouvelles variables.
   - Factorisation des conditions 'if' par '&&'.
+
+  (commit 4)
+  - Remplacement de la boucle for par map.
+  - Refacto code classique.
 
 -----------------------------------------------------------------------
 
