@@ -24,6 +24,15 @@ Résolution n°3:
 
 -----------------------------------------------------------------------
 
+Problème n°4:
+  Trop de conditions if imbriquée.
+
+Résolution n°4:
+  - Regroupement de tous les nombres dans de nouvelles variables.
+  - Factorisation des conditions 'if' par '&&'.
+
+-----------------------------------------------------------------------
+
 # Gilded Rose
 
 This is the Gilded Rose kata in JavaScript with Jest
