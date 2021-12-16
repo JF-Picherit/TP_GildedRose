@@ -16,7 +16,13 @@ Résolution n°2:
 
 -----------------------------------------------------------------------
 
+Problème n°3:
+  Dupplication des noms des items.
 
+Résolution n°3:
+  Création d'une varibale pour chaque nom + création d'un tableau pour l'appel groupé des noms.
+
+-----------------------------------------------------------------------
 
 # Gilded Rose
 
