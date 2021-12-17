@@ -76,6 +76,15 @@ Résolution n°7:
 
 ---
 
+Problème n°8:
+Paramètres communs pour les produits ce qui entraîne de la dupplication .
+
+Résolution n°8:
+(commit "fix dupplication code with extends classe")
+
+- Création d'un système d'héritage pour éviter la dupplication.
+- Création d'un test unitaire pour valider le bon fonctionnement de l'héritage.
+
 # Gilded Rose
 
 This is the Gilded Rose kata in JavaScript with Jest
