@@ -1,4 +1,4 @@
-Shop = require("../src/gilded_rose");
+Shop = require("../src/Shop");
 Item = require("../src/Item");
 
 const items = [
