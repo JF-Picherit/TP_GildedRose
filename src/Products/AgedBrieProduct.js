@@ -4,7 +4,8 @@ module.exports = class AgedBrieProduct extends Product {
     super(...args);
   }
 
-  ItemNameIs() {
-    this.item.name === "Aged Brie";
+   updateItem() {
+    this.item.sellIn -= 1;
+    this.setQuality(this.item.quality + ((this.item.sellIn < 0) ? 2 : 1));
   }
 };

@@ -81,9 +81,19 @@ Paramètres communs pour les produits ce qui entraîne de la dupplication .
 
 Résolution n°8:
 (commit "fix dupplication code with extends classe")
-
-- Création d'un système d'héritage pour éviter la dupplication.
+- Création d'un héritage de "Product" pour que chacun des produits aient les mêmes propriétés.
 - Création d'un test unitaire pour valider le bon fonctionnement de l'héritage.
+
+---
+
+Problème n°9:
+Paramètres communs pour les produits ce qui entraîne de la dupplication .
+
+Résolution n°9:
+(commit "creation methods to update and increment each item with its own props")
+- Création d'une méthode 'updateItem' mettant à jour les propriétés produits intrasèques en fonction des jours qui passent dans les fichiers de chaque produit.
+- Suppression des anciens fichiers de notre réflexion avant l'appel avec le professeur.
+
 
 # Gilded Rose
 
