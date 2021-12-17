@@ -1,3 +1,5 @@
+Item = require("./Item");
+
 module.exports = class ItemRender {
   constructor(shopName, shopQuality, shopSellIn) {
     this.shopName = shopName;

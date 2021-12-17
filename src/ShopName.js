@@ -22,4 +22,8 @@ module.exports = class ShopName {
   checkNameIncludes() {
     return this.nameItems.includes(this.name);
   }
+
+  get() {
+    return this.name;
+  }
 };

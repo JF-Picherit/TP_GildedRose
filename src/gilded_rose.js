@@ -1,4 +1,3 @@
-Item = require("./Item");
 ShopName = require("./ShopName");
 ShopQuality = require("./ShopQuality");
 ShopSellIn = require("./ShopSellIn");
@@ -15,14 +14,9 @@ module.exports = class Shop {
       const shopQuality = new ShopQuality(item.quality);
       const shopSellIn = new ShopSellIn(item.sellIn);
       const itemRender = new ItemRender(shopName, shopQuality, shopSellIn);
-
       itemRender.methodeTest();
-      // itemRender.methode2();
-      // itemRender.methode3();
-
       item.quality = shopQuality.get();
       item.sellIn = shopSellIn.get();
-
       return item;
     });
 
