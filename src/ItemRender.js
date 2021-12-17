@@ -1,4 +1,4 @@
-module.exports = class ItemQuality {
+module.exports = class ItemRender {
   constructor(shopName, shopQuality, shopSellIn) {
     this.shopName = shopName;
     this.shopQuality = shopQuality;

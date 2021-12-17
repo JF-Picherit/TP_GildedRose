@@ -53,7 +53,7 @@ Résolution n°5 (commit "Open/Close"):
 Problème n°6:
 Identification de code au résultat similaire qui pourrait être une seule et même fonction.
 
-Résolution n°6 (commit ""):
+Résolution n°6 (commit "Début de répartition du code en différentes méthodes."):
 
 ---
 
