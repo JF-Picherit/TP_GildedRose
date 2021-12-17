@@ -66,6 +66,16 @@ Résolution n°6:
 
 ---
 
+Problème n°7:
+Mauvaise compréhension de la consigne, mise à jour de la solution.
+
+Résolution n°7:
+(commit "3 classes pour 3 items")
+
+- Répartition des 3 items en 3 classes.
+
+---
+
 # Gilded Rose
 
 This is the Gilded Rose kata in JavaScript with Jest
