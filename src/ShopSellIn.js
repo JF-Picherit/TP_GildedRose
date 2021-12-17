@@ -17,12 +17,4 @@ module.exports = class ShopSellIn {
   sellInInferiorToSix() {
     return this.sellIn < this.six;
   }
-
-  get() {
-    return this.sellIn;
-  }
-
-  set(newSellIn) {
-    this.sellIn += newSellIn;
-  }
 };

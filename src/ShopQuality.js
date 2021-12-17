@@ -12,12 +12,4 @@ module.exports = class ShopQuality {
   qualitySuperiorToZero() {
     return this.quality > this.zero;
   }
-
-  get() {
-    return this.quality;
-  }
-
-  set(newQuality) {
-    this.quality += newQuality;
-  }
 };
